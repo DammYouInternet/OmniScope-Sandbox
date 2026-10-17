@@ -1,0 +1,15 @@
+# Rust build artifacts
+/target
+**/*.rs.bk
+*.pdb
+
+# QEMU & VM disk images
+*.qcow2
+*.img
+*.vmdk
+/images
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+*.log

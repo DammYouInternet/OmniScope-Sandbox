@@ -1,0 +1,19 @@
+[package]
+name = "omniscope-guest"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "In-guest agent for OmniScope (perception, actuation, and kernel telemetry)"
+
+[dependencies]
+omniscope-core = { path = "../omniscope-core" }
+serde.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+futures-util.workspace = true
+bytes.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+thiserror.workspace = true
+rand = "0.8"

@@ -1,0 +1,21 @@
+[package]
+name = "omniscope-host"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+description = "Host control plane, QEMU hypervisor orchestrator, and MCP server for OmniScope"
+
+[dependencies]
+omniscope-core = { path = "../omniscope-core" }
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+tokio-util.workspace = true
+futures-util.workspace = true
+bytes.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+thiserror.workspace = true
+omniscope-guest = { path = "../omniscope-guest" }
+
